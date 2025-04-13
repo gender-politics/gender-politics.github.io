@@ -1,0 +1,22 @@
+.halfscreen {
+    @media screen and (min-width: 991.98px) {
+        height: calc(75vh - 35px);
+    }
+}
+
+.parallax {
+    @media screen and (min-width: 991.98px) {
+        background-attachment: scroll; 
+        position: fixed;
+        top: 70px;
+    }
+}
+
+.nav-link {
+    transition: 0.2s ease;
+    background-color: #FFF;
+}
+
+.nav-link:not(.js-search):hover {
+    background-color: #DDD;
+}
